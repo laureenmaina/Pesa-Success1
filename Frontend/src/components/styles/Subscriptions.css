@@ -1,0 +1,93 @@
+.subscriptions-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .subscriptions-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .subscriptions-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .subscriptions-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-subscription-form,
+  .remove-subscriptions-table,
+  .subscriptions-list {
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .add-subscription-form input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .add-subscription-form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-subscription-form button:hover {
+    background-color: #218838;
+  }
+  
+  .remove-subscriptions-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .remove-subscriptions-table th,
+  .remove-subscriptions-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .remove-subscriptions-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .unsubscribe-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .unsubscribe-button:hover {
+    background-color: #ff1a1a;
+  }
+  
+  .subscriptions-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .subscriptions-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

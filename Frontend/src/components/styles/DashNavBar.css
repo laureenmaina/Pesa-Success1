@@ -1,0 +1,36 @@
+.dash-nav-bar {
+    background-color: #0056b3;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    /* Distribute items evenly */
+}
+
+.dash-nav-bar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.dash-nav-bar li {
+    margin-right: 20px;
+    /* Adjust margin between links */
+}
+
+.dash-nav-bar a {
+    text-decoration: none;
+    /* Remove underline from links */
+    color: white;
+    /* Set text color */
+    font-size: 20px;
+    /* Adjust font size */
+}
+
+.dash-nav-bar a:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+.active-link {
+    font-weight: bolder;
+}

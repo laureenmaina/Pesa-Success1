@@ -1,0 +1,74 @@
+.savings-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .savings-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .savings-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .savings-buttons button:disabled {
+    background-color: #cccccc;
+  }
+  
+  .savings-buttons button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  .topup-savings-form,
+  .withdraw-savings-form {
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .topup-savings-form input,
+  .withdraw-savings-form input,
+  .topup-savings-form select {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .topup-savings-form button,
+  .withdraw-savings-form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .topup-savings-form button:hover,
+  .withdraw-savings-form button:hover {
+    background-color: #218838;
+  }
+  
+  .savings-activities-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  .savings-activities-table th,
+  .savings-activities-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .savings-activities-table th {
+    background-color: #f2f2f2;
+  }
+  
